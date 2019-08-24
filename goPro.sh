@@ -15,7 +15,7 @@ echo "-----------------"
 
 # zsh
 echo "## Installing zsh first.."
-sudo apt install zsh
+sudo apt install zsh -y
 echo "Done!"
 echo "-----------------"
 
