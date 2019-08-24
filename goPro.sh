@@ -13,6 +13,15 @@ echo "set rnu" >> ~/.vimrc
 echo "Done!"
 echo "-----------------"
 
+
+# add user
+echo "## Add user for github..."
+git config --global user.email "jacklitianqin@gmail.com"
+git config --global user.name "Tianqin Li"
+echo "Done!"
+echo "-----------------"
+
+
 # zsh
 echo "## Installing zsh first.."
 sudo apt install zsh -y
@@ -25,13 +34,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 echo "Done!"
 echo "-----------------"
 
-
-# add user
-echo "## Add user for github..."
-git config --global user.email "jacklitianqin@gmail.com"
-git config --global user.name "Tianqin Li"
-echo "Done!"
-echo "-----------------"
 
 echo "ALL DONE, you are a pro now. Enjoy! :)"
 echo ""
