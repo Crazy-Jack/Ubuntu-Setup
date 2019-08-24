@@ -1,13 +1,13 @@
 # Ubuntu-Setup
 
-## Install one command line
+### Install via single command line
 
-### Via curl
+#### Via curl
 ```sh
 sh -c "$(curl -fsSLk https://raw.github.com/Crazy-Jack/Ubuntu-Setup/master/goPro.sh)"
 ```
 
-### Via wget
+#### Via wget
 ```sh
 sh -c "$(wget https://raw.github.com/Crazy-Jack/Ubuntu-Setup/master/goPro.sh -O -)"
 ```
