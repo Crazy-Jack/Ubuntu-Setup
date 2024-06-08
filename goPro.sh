@@ -14,19 +14,12 @@ echo "Done!"
 echo "-----------------"
 
 
-# add user
-echo "## Add user for github..."
-git config --global user.email "jacklitianqin@gmail.com"
-git config --global user.name "Tianqin Li"
-echo "Done!"
-echo "-----------------"
-
-
 # zsh
 echo "## Installing zsh first.."
 sudo apt install zsh -y
 echo "Done!"
 echo "-----------------"
+
 
 # oh-my-zsh
 echo "## Costimize to zsh now..."
@@ -34,6 +27,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 echo "Done!"
 echo "-----------------"
 
+# configue backblaze
+cd ~
+wget https://github.com/Backblaze/B2_Command_Line_Tool/releases/latest/download/b2-linux
+mv b2-linux b2
+chmod +x b2 
 
-echo "ALL DONE, you are a pro now. Enjoy! :)"
-echo ""
+./b2 authorize_account
